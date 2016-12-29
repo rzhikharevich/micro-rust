@@ -1,0 +1,12 @@
+[{
+	"Name": "rust",
+	"Description": "Rust programming language support",
+	"Tags": ["rust"],
+	"Versions": [
+		{
+			"Version": "1.0",
+			"Url": "https://github.com/rzhikharevich/micro-rust/archive/v1.0.zip",
+			"Require": {}
+		}
+	]
+}]
