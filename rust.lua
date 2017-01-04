@@ -8,7 +8,7 @@ end
 function rustfmt()
 	CurView():Save(false)
 
-	local p = io.popen("rustfmt " .. CurView().Buf.Path)
+	local p = io.popen("rustfmt --write-mode overwrite " .. CurView().Buf.Path)
 	p:read("*a")
 	p:close()
 
